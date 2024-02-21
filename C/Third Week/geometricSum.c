@@ -1,3 +1,4 @@
+// 13. Find the sum of geometric series for n numbers
 #include <stdio.h>
 #include <math.h>
 

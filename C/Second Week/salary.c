@@ -1,3 +1,13 @@
+// 10. Calculate gross salary of en employee according to input values byt he following:
+// basic salary >= 10000:
+//     HRA = 20%
+//     DA = 80%
+// basic salary >= 20000:
+//     HRA = 25%
+//     DA = 90%
+// basic salary > 30000:
+//     HRA = 30%
+//     DA = 95%
 #include <stdio.h>
 
 void main()

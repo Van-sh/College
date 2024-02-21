@@ -1,3 +1,4 @@
+// 4. Compute average of 3 numbers
 #include <stdio.h>
 
 void main()

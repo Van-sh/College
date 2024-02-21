@@ -1,3 +1,4 @@
+// 12. Print first 10 natural numbers using for loop
 #include <stdio.h>
 
 void main()

@@ -1,3 +1,4 @@
+// Find a number given by the user is odd or even
 #include <stdio.h>
 
 void main()

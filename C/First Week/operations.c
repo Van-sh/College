@@ -1,3 +1,4 @@
+// 2. Find sum, difference, multiplication, division and mod for two numbers entered by user
 #include <stdio.h>
 
 void main()

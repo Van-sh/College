@@ -1,3 +1,4 @@
+// 16. Find the sum of digits a given number
 #include <stdio.h>
 
 void main()

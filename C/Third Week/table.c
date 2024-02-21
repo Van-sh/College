@@ -1,3 +1,4 @@
+// 15. Calculate table of a number given by the user
 #include <stdio.h>
 
 void main()

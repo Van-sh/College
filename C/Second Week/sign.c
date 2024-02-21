@@ -1,3 +1,4 @@
+// 8. Check whether number is positive, negative or zero
 #include <stdio.h>
 
 void main()
