@@ -1,3 +1,4 @@
+// 20. Check if a char given by the user is vowel or consonant using switch case
 #include <stdio.h>
 
 void main()

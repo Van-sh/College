@@ -1,3 +1,4 @@
+// 18. Accept a digit and display it in a word using switch case
 #include <stdio.h>
 
 void main()

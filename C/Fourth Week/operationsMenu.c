@@ -1,3 +1,4 @@
+//  19. Find the sum, difference, product, quotient and remainder of 2 numbers using switch case
 #include <stdio.h>
 
 void main()

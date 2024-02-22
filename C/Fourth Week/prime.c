@@ -1,3 +1,4 @@
+// Check if a number is prime
 #include <stdio.h>
 
 void main()
