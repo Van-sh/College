@@ -1,4 +1,4 @@
-// Find the smallest of 3 numbers
+// 9. Find the smallest of 3 numbers
 #include <stdio.h>
 
 void main()

@@ -1,4 +1,4 @@
-// Find a number given by the user is odd or even
+// 7. Find a number given by the user is odd or even
 #include <stdio.h>
 
 void main()

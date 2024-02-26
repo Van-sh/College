@@ -1,4 +1,4 @@
-// Check if a number is prime
+// 22. Check if a number is prime
 #include <stdio.h>
 
 void main()
