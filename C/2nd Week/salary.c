@@ -1,4 +1,4 @@
-// 10. Calculate gross salary of en employee according to input values byt he following:
+// 10. Calculate gross salary of en employee according to input values by the following:
 // basic salary >= 10000:
 //     HRA = 20%
 //     DA = 80%
