@@ -1,4 +1,4 @@
 # College
 Programs I wrote for college
 
-- [C](./C/)
+- [C Programs (2nd Sem)](./C/)
