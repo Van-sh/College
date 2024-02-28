@@ -20,7 +20,7 @@ void main()
         printf("%i * %i = %i\n", a, b, a * b);
         break;
     case 4:
-        printf("%i / %i = %i\n", a, b, a / b);
+        printf("%i / %i = %i\n", a, b, (float)a / b);
         break;
     case 5:
         printf("%i %% %i = %i\n", a, b, a % b);
