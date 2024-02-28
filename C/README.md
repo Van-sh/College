@@ -25,7 +25,7 @@ C Programs for practical file
   - [Accept a digit and display it in a word using switch case](./4th%20Week/digitWord.c)
   - [Find the sum, difference, product, quotient and remainder of 2 numbers using switch case](./4th%20Week/operationsMenu.c)
   - [Check if a char given by the user is vowel or consonant using switch case](./4th%20Week/vowel.c)
-  - [Find quadrant where x, y quadrant given by user are](./4th%20Week/quadrant.c)
+  - [Find quadrant where x, y co-ordinate given by user are](./4th%20Week/quadrant.c)
   - [Check if a number is prime](./4th%20Week/prime.c)
 - [5th Week](./5th%20Week/)
   - [Print a square made of the character X](./5th%20Week/pattern1.c)

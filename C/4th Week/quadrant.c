@@ -1,4 +1,4 @@
-// 21. Find quadrant where x, y quadrant given by user are
+// 21. Find quadrant where x, y co-ordinate given by user are
 #include <stdio.h>
 
 void main()
