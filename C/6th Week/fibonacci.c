@@ -13,7 +13,7 @@ int fib(int n)
 void main()
 {
     int n;
-    printf("Enter number of elements ot be generated: ");
+    printf("Enter number of elements to be generated: ");
     scanf("%i", &n);
     for (int i = 1; i <= n; i++)
     {
