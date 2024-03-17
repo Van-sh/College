@@ -1,4 +1,4 @@
-// 37. Write a program to fine max and min of 2 numbers using functions
+// 37. Write a program to find max and min of 2 numbers using functions
 #include <stdio.h>
 
 int max(int a, int b)
