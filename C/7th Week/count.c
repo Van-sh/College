@@ -17,7 +17,7 @@ void countVowelsAndConsonants(char *str)
         }
         str++;
     }
-    printf("Vowels: %d, Consonants: %d\n", vowels, consonants);
+    printf("Vowels: %i, Consonants: %i\n", vowels, consonants);
 }
 
 void main()

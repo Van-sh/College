@@ -12,7 +12,7 @@ void calculateStringLength(char str[])
     {
         len++;
     }
-    printf("Length of the string: %d\n", len);
+    printf("Length of the string: %i\n", len);
 }
 
 void concatenateStrings(char str1[], char str2[], char result[])
@@ -69,7 +69,7 @@ void main()
     {
         printf("\n1. Calculate String Length\n2. Concatenate Strings\n3. Reverse a String\n4. Copy a String\n5. Exit\n");
         printf("Enter your choice: ");
-        scanf("%d%*c", &choice);
+        scanf("%i%*c", &choice);
 
         switch (choice)
         {
