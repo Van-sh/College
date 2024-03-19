@@ -1,4 +1,4 @@
-// Write a program to print all permutations of a given string using pointers
+// 42. Write a program to print all permutations of a given string using pointers
 #include <stdio.h>
 #include <string.h>
 
