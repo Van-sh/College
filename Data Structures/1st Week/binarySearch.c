@@ -1,3 +1,9 @@
+// Perform Linear Search and Binary Search on an array. Description of programs:
+// a. Read an array of type integer
+// b. Input element from user for searching
+// c. Search the element by passing the array to a function and then returning the position of the element
+// from the function else return -1 if the element is not found
+// d. Display the position where the element has been found
 #include <stdio.h>
 
 int binarySearch(int arr[], int size, int target) {
@@ -18,9 +24,13 @@ int binarySearch(int arr[], int size, int target) {
 }
 
 int main(void) {
-    
-    int arr[] = {1, 2, 3, 4, 5};
-    int size = sizeof(arr) / sizeof(int), target;
+    int arr[100], size, target;
+    printf("Enter size of array: ");
+    scanf("%i", &size);
+    printf("Enter Array in ascending order: ");
+    for (int i = 0; i < size; i++) {
+        scanf("%i", &arr[i]);
+    }
     printf("Enter number to find: ");
     scanf("%i", &target);
     int result = binarySearch(arr, size, target);

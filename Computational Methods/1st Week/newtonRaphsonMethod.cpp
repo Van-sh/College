@@ -1,3 +1,4 @@
+// 1. Program for finding roots of f(x)=0 by Newton Raphson method
 #include <cmath>
 #include <iomanip>
 #include <iostream>
