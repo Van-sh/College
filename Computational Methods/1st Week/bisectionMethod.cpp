@@ -37,7 +37,7 @@ input:
     } else {
       x0 = x;
     }
-    step = step + 1;
+    step++;
   } while (fabs(f) > e);
   cout << endl << "Root is: " << setprecision(3) << x << endl;
   return 0;

@@ -27,7 +27,7 @@ int main() {
          << " and f(x)=" << setw(10) << f(x) << endl;
 
     xNew = x - f / df;
-    step = step + 1;
+    step++;
 
   } while (fabs(f) > e);
   cout << endl << "Root is: " << setprecision(3) << x << endl;
