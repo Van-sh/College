@@ -1,4 +1,4 @@
-// Perform Linear Search and Binary Search on an array. Description of programs:
+// 2. Perform Linear Search and Binary Search on an array. Description of programs:
 // a. Read an array of type integer
 // b. Input element from user for searching
 // c. Search the element by passing the array to a function and then returning the position of the element
