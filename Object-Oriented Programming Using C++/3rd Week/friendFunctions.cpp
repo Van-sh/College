@@ -1,3 +1,5 @@
+// 6. WAP using friend functionsto calculate the biggest
+// of 2 numbers of two different classes
 #include <cmath>
 #include <iostream>
 using namespace std;

@@ -1,3 +1,6 @@
+// 7. Write a fumction power to raise a number m to power n. The function takes a double value for m and
+// int value for n. Use default value for n to make the ålnction to calculate squares when this argument
+// is omitted.
 #include <iostream>
 using namespace std;
 

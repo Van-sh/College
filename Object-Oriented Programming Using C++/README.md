@@ -8,3 +8,7 @@ Object-Oriented Programming Programs for practical file
 - [2nd Week](./2nd%20Week/)
   - [Add two time objects](./2nd%20Week/timeAddition.cpp)
   - [Add two complex numbers](./2nd%20Week/complexAddition.cpp)
+- [3rd Week](./3rd%20Week/)
+  - [Calculate area of circle, rectangle and triangle](./3rd%20Week/functionOverload.cpp)
+  - [Find the bigger number in two classes](./3rd%20Week/friendFunctions.cpp)
+  - [Function to raise number m to the power n](./3rd%20Week/defaultArgument.cpp)

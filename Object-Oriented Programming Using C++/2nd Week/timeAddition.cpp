@@ -1,4 +1,4 @@
-// Create a class time with members hours, minutes and seconds. Take input and
+// 3. Create a class time with members hours, minutes and seconds. Take input and
 // add two time objects and passing objects to function and display the result
 #include <iostream>
 using namespace std;
