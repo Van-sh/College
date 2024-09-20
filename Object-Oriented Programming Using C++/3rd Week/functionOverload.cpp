@@ -16,4 +16,5 @@ int main() {
   cout << "Area of circle: " << area(radius) << endl
        << "Area of rectangle: " << area(length, width) << endl
        << "Area of triangle: " << area(base, height) << endl;
+  return 0;
 }

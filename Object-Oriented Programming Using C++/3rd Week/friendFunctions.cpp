@@ -8,7 +8,7 @@ class c1;
 class c2;
 
 class c1 {
-  int x = 10;
+  int x = 16;
   friend int compare(c1, c2);
 };
 class c2 {
@@ -22,4 +22,5 @@ int main() {
   c1 a;
   c2 b;
   cout << "The bigger number is: " << compare(a, b);
+  return 0;
 }

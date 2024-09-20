@@ -13,4 +13,5 @@ double power(double m, int n = 2) {
 int main() {
   cout << "Only passing m: " << power(10) << endl
        << "Passing both m and n: " << power(10, 3) << endl;
+  return 0;
 }
