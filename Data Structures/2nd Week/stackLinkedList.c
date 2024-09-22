@@ -1,4 +1,4 @@
-// 3. Implement a stack using a linked list
+// 4. Implement a stack using a linked list
 #include <stdio.h>
 #include <stdlib.h>
 

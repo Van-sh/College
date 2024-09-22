@@ -7,3 +7,5 @@ Data Structures Programs for practical file
 - [2nd Week](./2nd%20Week/)
   - Implement stack using [Array](./2nd%20Week/stackArray.c) and [Linked List](./2nd%20Week/stackLinkedList.c)
   - [Write a Program to detect a sparse matrix](./2nd%20Week/sparseMatrix.c)
+- [3rd Week](./3rd%20Week/)
+  - [Linked list with nodes having information about students](./3rd%20Week/studentLinkedList.c)

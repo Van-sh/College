@@ -1,4 +1,4 @@
-// 3. Implement a stack using an array
+// 4. Implement a stack using an array
 #include <stdio.h>
 #define MAX_SIZE 5
 

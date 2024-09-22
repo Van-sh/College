@@ -1,4 +1,4 @@
-// 2. Program for finding roots of f(x)=0 by secant method
+// 3. Program for finding roots of f(x)=0 by secant method
 #include <cmath>
 #include <iomanip>
 #include <iostream>

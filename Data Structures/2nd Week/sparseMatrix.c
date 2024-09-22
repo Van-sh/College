@@ -1,3 +1,5 @@
+// 3. Check if the user input matrix is sparse or not.
+// If it is a sparse matrix then do matrix addition and subtraction.
 #include <stdio.h>
 #define MAX 10
 int isSparse(int matrix[MAX][MAX], int rows, int cols) {
