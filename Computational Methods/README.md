@@ -9,3 +9,5 @@ Computational Methods Programs for practical file
   - [Find roots of f(x) = 0 by secant method](./2nd%20Week/secandMethod.cpp)
 - [3rd Week](./3rd%20Week/)
   - [Implement Lagrange's Interpolation Formula](./3rd%20Week/lagrangeInterpolationMethod.cpp)
+- [4th Week](./4th%20Week/)
+  - [Implement Newton’s Divided Difference formula](./4th%20Week/newtonDividedDifference.cpp)
