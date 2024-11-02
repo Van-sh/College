@@ -32,18 +32,14 @@ void heapSort(int arr[], int n) {
   }
 }
 
-void printArray(int arr[], int size) {
-  for (int i = 0; i < size; i++) {
-    printf("%i ", arr[i]);
-  }
-  printf("\n");
-}
-
 int main() {
   int arr[] = {64, 52, 12, 22, 11, 23};
   int n = sizeof(arr) / sizeof(arr[0]);
   heapSort(arr, n);
   printf("\nSorted array is: \n");
-  printArray(arr, n);
+  for (int i = 0; i < n; i++) {
+    printf("%i ", arr[i]);
+  }
+  printf("\n");
   return 0;
 }
