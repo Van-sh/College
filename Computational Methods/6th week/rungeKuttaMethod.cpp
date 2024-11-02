@@ -3,9 +3,7 @@
 #include <vector>
 using namespace std;
 
-// #define f(x, y) (x + y)
-
-double f(double x, double y) { return (x + y); }
+#define f(x, y) (x + y)
 
 int main() {
   cout << fixed;
