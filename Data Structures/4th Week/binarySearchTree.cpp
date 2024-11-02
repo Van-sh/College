@@ -33,7 +33,7 @@ struct Node *insert(struct Node *node, char *type, char *company, int year) {
 void inorder(struct Node *root) {
   if (root != NULL) {
     inorder(root->left);
-    printf("Type: %s, Company: %s, Year: %d\n", root->type, root->company,
+    printf("Type: %s, Company: %s, Year: %i\n", root->type, root->company,
            root->year);
     inorder(root->right);
   }
@@ -41,7 +41,7 @@ void inorder(struct Node *root) {
 
 void preorder(struct Node *root) {
   if (root != NULL) {
-    printf("Type: %s, Company: %s, Year: %d\n", root->type, root->company,
+    printf("Type: %s, Company: %s, Year: %i\n", root->type, root->company,
            root->year);
     preorder(root->left);
     preorder(root->right);
@@ -52,7 +52,7 @@ void postorder(struct Node *root) {
   if (root != NULL) {
     postorder(root->left);
     postorder(root->right);
-    printf("Type: %s, Company: %s, Year: %d\n", root->type, root->company,
+    printf("Type: %s, Company: %s, Year: %i\n", root->type, root->company,
            root->year);
   }
 }

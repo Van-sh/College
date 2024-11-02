@@ -9,7 +9,7 @@ struct Node {
 
 void preorder(struct Node *node) {
   if (node != NULL) {
-    printf("%d ", node->data);
+    printf("%i ", node->data);
     preorder(node->left);
     preorder(node->right);
   }
@@ -18,7 +18,7 @@ void preorder(struct Node *node) {
 void inorder(struct Node *node) {
   if (node != NULL) {
     inorder(node->left);
-    printf("%d ", node->data);
+    printf("%i ", node->data);
     inorder(node->right);
   }
 }
@@ -27,7 +27,7 @@ void postorder(struct Node *node) {
   if (node != NULL) {
     postorder(node->left);
     postorder(node->right);
-    printf("%d ", node->data);
+    printf("%i ", node->data);
   }
 }
 

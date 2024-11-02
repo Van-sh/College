@@ -72,7 +72,7 @@ void reverseList() {
 void printList() {
   struct Node *current = head;
   while (current != NULL) {
-    printf("%d: %s", current->rollNumber, current->name);
+    printf("%i: %s", current->rollNumber, current->name);
     if (current->next != NULL)
       printf(" -> ");
     current = current->next;
