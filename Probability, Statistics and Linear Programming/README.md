@@ -8,3 +8,5 @@ Scilab Programs for PSLP lab
   - [Matrix Transpose](./1st%20Week/matrix_transpose.sci)
 - [2nd Week](./2nd%20Week/)
   - [FItting Binomial Expression](./2nd%20Week/binomial.sci)
+- [3rd Week](./3rd%20Week/)
+  - [FItting Poisson Expression](./3rd%20Week/poisson.sci)
