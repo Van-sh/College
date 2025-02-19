@@ -10,3 +10,8 @@ Scilab Programs for PSLP lab
   - [FItting Binomial Expression](./2nd%20Week/binomial.sci)
 - [3rd Week](./3rd%20Week/)
   - [FItting Poisson Expression](./3rd%20Week/poisson.sci)
+- [4th Week](./4th%20Week/)
+  - [FItting Normal Distribution](./4th%20Week/normal_distribution.sci)
+- [5th Week](./5th%20Week/)
+  - [Computing Covariance and Correlation](./5th%20Week/covariance_correlation.sci)
+  - [Visualize data using histogram](./5th%20Week/histogram.sci)
