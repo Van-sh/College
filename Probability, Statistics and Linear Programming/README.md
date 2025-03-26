@@ -15,3 +15,5 @@ Scilab Programs for PSLP lab
 - [5th Week](./5th%20Week/)
   - [Computing Covariance and Correlation](./5th%20Week/covariance_correlation.sci)
   - [Visualize data using histogram](./5th%20Week/histogram.sci)
+- [6th Week](./6th%20Week/)
+  - [FItting regression lines](./6th%20Week/regression_lines.sci)
