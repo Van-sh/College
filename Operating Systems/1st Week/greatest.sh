@@ -1,5 +1,5 @@
 #!/bin/bash
-# 1. Write a program using shell scripting to find the greatest of 5 numbers
+# 1. Write a program using shell scripting to find the greatest of 5 numbers.
 
 if [ "$#" -ne 5 ]; then
    echo "Usage: $0 <number-1> <number-2> <number-3> <number-4> <number-5>"
