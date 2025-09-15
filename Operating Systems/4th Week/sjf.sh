@@ -1,13 +1,28 @@
 #!/bin/bash
-# 5. Write a script to implement CPU Schefuling for first come first serve.
+# 10. Write a program to implement CPU scheduling for shortest job first.
 
 read -p "Enter number of processes: " n
 
 for i in $(seq 0 "$(( n - 1 ))"); do
    read -p "Enter burst time for process $(( i + 1 )): " bt[$i]
+   pid[$i]=$(( i + 1 ))
 done
 
 echo -e "\nProcess\t\tWaiting Time\tTurn Around Time"
+
+for i in $(seq 0 $(( n - 1 ))); do
+   for j in $(seq $(( i + 1 )) $(( n - 1 ))); do
+      if [ ${bt[$j]} -lt ${bt[$i]} ]; then
+         (( bt[$i] ^= bt[$j] ))
+         (( bt[$j] ^= bt[$i] ))
+         (( bt[$i] ^= bt[$j] ))
+
+         (( pid[$i] ^= pid[$j] ))
+         (( pid[$j] ^= pid[$i] ))
+         (( pid[$i] ^= pid[$j] ))
+      fi
+   done
+done
 
 for i in $(seq 0 "$(( n - 1 ))"); do
    if [ $i -eq 0 ]; then
@@ -16,7 +31,7 @@ for i in $(seq 0 "$(( n - 1 ))"); do
       (( wt[i] = bt[i-1] + wt[i-1] ))
    fi
    (( tt[i] = wt[i] + bt[i] ))
-   echo -e "$(( i + 1 ))\t\t${wt[$i]}\t\t${tt[$i]}"
+   echo -e "${pid[$i]}\t\t${wt[$i]}\t\t${tt[$i]}"
 done
 
 sum=0

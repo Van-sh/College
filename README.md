@@ -9,4 +9,4 @@ Programs I wrote for college
 - [Java Programming (4th Sem)](./java%20Programming/)
 - [Probability, Statistics and Linear Programming (4th Sem)](./Probability,%20Statistics%20and%20Linear%20Programming/)
 - [Operating Systems (5th Sem)](./Operating%20Systems/)
-- [Compiler Design](./Compiler%20Design/)
+- [Compiler Design (5th Sem)](./Compiler%20Design/)

@@ -10,3 +10,8 @@ Bash Scripts for Operating Systems Lab
 - [3nd Week](./3rd%20Week/)
   - [Check if a number is prime or not](./3rd%20Week/prime.sh)
   - [FCFS CPU Scheduling](./3rd%20Week/fcfs.sh)
+- [4th Week](./4th%20Week/)
+  - [Check if input is integer or string](./4th%20Week/input.sh)
+  - [Compute Number of characters and words in each line](./4th%20Week/wordcount.sh)
+  - [Print Fibonacci series](./4th%20Week/fibonacci.sh)
+  - [SJF CPU Scheduling](./4th%20Week/sjf.sh)
