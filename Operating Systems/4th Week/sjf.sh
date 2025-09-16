@@ -1,5 +1,5 @@
 #!/bin/bash
-# 10. Write a program to implement CPU scheduling for shortest job first.
+# 9. Write a program to implement CPU scheduling for shortest job first.
 
 read -p "Enter number of processes: " n
 
