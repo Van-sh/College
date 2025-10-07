@@ -15,3 +15,8 @@ Bash Scripts for Operating Systems Lab
   - [Compute Number of characters and words in each line](./4th%20Week/wordcount.sh)
   - [Print Fibonacci series](./4th%20Week/fibonacci.sh)
   - [SJF CPU Scheduling](./4th%20Week/sjf.sh)
+- [5th Week](./4th%20Week/)
+  - [Calculate Factorial of a number](./4th%20Week/input.sh)
+  - [Calculate sum of digits of a number](./4th%20Week/wordcount.sh)
+  - [Check if a string is a palindrome](./4th%20Week/fibonacci.sh)
+  - [SRTF CPU Scheduling](./4th%20Week/sjf.sh)
