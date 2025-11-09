@@ -1,4 +1,5 @@
 #!/bin/bash
+# 13. Write a program to implement the priority scheduling.
 
 read -rp "Enter number of processes: " n
 
