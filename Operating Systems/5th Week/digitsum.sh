@@ -1,7 +1,7 @@
 #!/bin/bash
 # 11. Write a program to calculate the sum of digits of the given number.
 
-if [[ $# != 1 ]]; then
+if (( $# != 1 )); then
    echo "Usage: $0 <number>"
    exit 1
 fi

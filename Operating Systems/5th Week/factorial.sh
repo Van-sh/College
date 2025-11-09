@@ -13,7 +13,7 @@ fi
 
 result=1
 for (( i = 1; i <= $1; i++ )); do
-   (( result *= i ))
+   (( result *= i ))w
 done
 
 echo "Factorial of $1 is $result"
