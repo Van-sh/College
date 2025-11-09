@@ -6,7 +6,7 @@ wrt=1
 read_count=0
 
 down() {
-   local -ni semaphore=$1
+   local -n semaphore=$1
    while (( semaphore <= 0 )); do
       sleep 1
    done
@@ -14,7 +14,7 @@ down() {
 }
 
 up() {
-   local -ni semaphore=$1
+   local -n semaphore=$1
    (( semaphore += 1 ))
 }
 
