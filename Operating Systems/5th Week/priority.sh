@@ -32,3 +32,21 @@ done
 for (( i = 0; i < n; i++ )) do
    echo -e "$(( i + 1 ))\t\t${wt[i]}\t\t${tt[i]}"
 done
+
+sum=0
+average=0
+for (( i = 0; i < n; i++ )); do
+   (( sum = sum + wt[i] ))
+done
+
+average=$(bc -l <<< "scale=6;$sum / $n")
+echo -e "Average waiting time: ${average}"
+
+sum=0
+average=0
+for (( i = 0; i < n; i++ )); do
+   (( sum = sum + tt[i] ))
+done
+
+average=$(bc -l <<< "scale=6;$sum / $n")
+echo -e "Average Turnaround time: ${average}"
