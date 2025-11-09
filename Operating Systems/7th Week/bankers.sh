@@ -8,7 +8,7 @@ echo "Enter Allocation Matrix:"
 for (( i = 0; i < n; i++ )); do
    read -ra row
    for (( j = 0; j < m; j++ )); do
-      alloc[$((i * m + j))]=${row[j]}
+      alloc[i * m + j]=${row[j]}
    done
 done
 
@@ -16,12 +16,12 @@ echo "Enter Max Matrix:"
 for (( i = 0; i < n; i++ )); do
    read -ra row
    for (( j = 0; j < m; j++ )); do
-      max[$((i * m + j))]=${row[j]}
+      max[i * m + j]=${row[j]}
    done
 done
 
 echo "Enter Available Resources:"
-read -a avail
+read -ra avail
 
 for (( i = 0; i < n; i++ )); do
    for (( j = 0; j < m; j++ )); do
@@ -31,7 +31,7 @@ for (( i = 0; i < n; i++ )); do
 done
 
 for (( i = 0; i < n; i++ )); do
-   finish[$i]=0
+   finish[i]=0
 done
 
 count=0
