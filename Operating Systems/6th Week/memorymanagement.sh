@@ -1,11 +1,11 @@
 #!/bin/bash
 # 16. Write a program to implement first fit, worst fit and best fit algorithm for memory management.
 
-read -rp "Enter number of memory blocks:" nb
 read -rp "Enter sizes of memory blocks (space separated): " -a block
+nb=${#block[@]}
 
-read -rp "Enter number of processes:" np
-read -rp "Enter sizes of processes (space separated):" -a process
+read -rp "Enter sizes of processes (space separated): " -a process
+np=${#process[@]}
 
 first_fit() {
    echo "----- FIRST FIT -----"
