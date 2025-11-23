@@ -1,0 +1,79 @@
+#include <chrono>
+#include <vector>
+#include <iostream>
+#include <string_view>
+
+double measureAverageTime(std::vector<int> &arr, int target, int trials);
+void printVector(const std::vector<int> &arr);
+void runCase(const std::string_view &label, std::vector<int> &arr, int target, int trials);
+
+size_t linearSearch(const std::vector<int> &arr, int target)
+{
+   for (size_t i = 0; i < arr.size(); i++)
+   {
+      if (arr[i] == target)
+         return i;
+   }
+   return -1;
+}
+
+int main()
+{
+   int n = 10;
+   int trials = 1000000;
+   std::vector<int> arr(n);
+   for (int i = 0; i < n; i++)
+   {
+      arr[i] = i + 1;
+   }
+
+   int bestCase = arr[0];
+   int averageCase = arr[n / 2];
+   int worstCase = arr[n - 1];
+   int notFoundCase = n + 1;
+
+   std::cout << "Insertion Sort Timing (" << n << " elements, " << trials << " trials)\n\n";
+
+   runCase("Best Case (Element at Start)", arr, bestCase, trials);
+   runCase("Average Case (Element in Middle)", arr, averageCase, trials);
+   runCase("Worst Case (Element at End)", arr, worstCase, trials);
+   runCase("Not Found Case", arr, notFoundCase, trials);
+}
+
+double measureAverageTime(std::vector<int> &arr, int target, int trials)
+{
+   long long totalTime = 0;
+   for (int t = 0; t < trials; t++)
+   {
+      auto start = std::chrono::high_resolution_clock::now();
+      linearSearch(arr, target);
+      auto end = std::chrono::high_resolution_clock::now();
+      totalTime +=
+          std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
+   }
+   return static_cast<double>(totalTime) / trials;
+}
+
+void printVector(const std::vector<int> &arr)
+{
+   std::cout << "[";
+   for (size_t i = 0; i < arr.size(); ++i)
+   {
+      std::cout << arr[i];
+      if (i < arr.size() - 1)
+      {
+         std::cout << ", ";
+      }
+   }
+   std::cout << "]";
+}
+
+void runCase(const std::string_view &label, std::vector<int> &arr, int target, int trials)
+{
+   std::cout << label << ":\n";
+   std::cout << "Array: ";
+   printVector(arr);
+   std::cout << "\nTarget: " << target << "\n";
+   double avgTime = measureAverageTime(arr, target, trials);
+   std::cout << "Average Time: " << avgTime << " ns\n\n";
+}

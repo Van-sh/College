@@ -24,8 +24,3 @@ Bash Scripts for Operating Systems Lab
 - [6th Week](./6th%20Week/)
   - [Page Replacement Policy](./6th%20Week/pagereplacement.sh)
   - [Memory Management](./6th%20Week/memorymanagement.sh)
-  - [Reader Writer Problem](./6th%20Week/readerwriter.sh)
-- [7th Week](./7th%20Week/)
-  - [Producer Consumer Problem](./7th%20Week/producerconsumer.sh)
-  - [Banker's Algorithm](./7th%20Week/bankers.sh)
-  - [File Organization Tecniques](./7th%20Week/files.c)
