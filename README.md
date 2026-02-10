@@ -9,4 +9,5 @@ Programs I wrote for college
 - [Java Programming (4th Sem)](./java%20Programming/)
 - [Probability, Statistics and Linear Programming (4th Sem)](./Probability,%20Statistics%20and%20Linear%20Programming/)
 - [Operating Systems (5th Sem)](./Operating%20Systems/)
-- [Design and Analysis of Algorithms](./Deisgn%20and%20Analysis%20of%20Algorithms/)
+- [Design and Analysis of Algorithms (5th Sem)](./Deisgn%20and%20Analysis%20of%20Algorithms/)
+- [Artificial Intelligence (6th Sem)](./Artificial%20Intelligence/)
