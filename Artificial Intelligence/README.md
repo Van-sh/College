@@ -1,6 +1,6 @@
 # Artificial Intelligence
 
-Prolog programs for Practical file
+Prolog programs for Artificial Intelligence Lab
 
 - [1st Week](./1st%20Week/)
   - [Hello World](./1st%20Week/helloworld.pl)
