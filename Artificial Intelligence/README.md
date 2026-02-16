@@ -7,3 +7,6 @@ Prolog programs for Artificial Intelligence Lab
 - [2nd Week](./2nd%20Week/)
   - [Facts](./2nd%20Week/facts.pl)
   - [Centigrade to Fahrenheit and Below Freezing Point](./2nd%20Week/predicates.pl)
+- [3rd Week](./3rd%20Week/)
+  - [Breadth First Search](./3rd%20Week/bfs.pl)
+  - [Water Jug Problem](./3rd%20Week/waterjug.pl)
