@@ -16,3 +16,7 @@ Python programs for Practical file
   - [Demonstrate tuple operations](./3rd%20Week/tupleop.py)
   - [Convert Fahrenheit to Celcius and Celcius to Fahrenheit](./3rd%20Week/temp.py)
   - [Print all primes till n](./3rd%20Week/primes.py)
+- [4th Week](./4th%20Week/)
+  - [Demonstrate set operations](./4th%20Week/setop.py)
+  - [Demonstrate dictionary operations](./4th%20Week/dictop.py)
+  - [Fibonacci](./4th%20Week/fibonacci.py) [Module](./4th%20Week/fibonacci_module.py)
