@@ -34,7 +34,7 @@ Python programs for Practical file
   - [GUI for simple calculation](./Everything%20Else/calc.py)
   - [Web Scraping](./Everything%20Else/scrape.py)
   - [Visualize Data](./Everything%20Else/visualize.py)
-  - [Train a model for image classification](./Everything%20Else/model.py)
+  - Train a model for image classification
   - [Networking](./Everything%20Else/request.py)
   - [Copy from one file to another](./Everything%20Else/copyfile.py)
   - [Unique words from a file in alphabetical order](./Everything%20Else/alphabetical_file.py)
